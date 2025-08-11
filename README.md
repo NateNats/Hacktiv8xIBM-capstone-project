@@ -6,7 +6,7 @@
 https://www.kaggle.com/datasets/wiltheman/anime-data-set-for-ml
 
 ## Tools
-Google Colab
-DataSpell
-Gemini AI
-LM Studio
+- Google Colab
+- DataSpell
+- Gemini AI
+- LM Studio
