@@ -6,6 +6,7 @@
 https://www.kaggle.com/datasets/wiltheman/anime-data-set-for-ml
 
 ## Tools
+- IBM Granite Model
 - Google Colab
 - DataSpell
 - Gemini AI
