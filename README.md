@@ -1,9 +1,9 @@
-# Anime Movie System Recommendation
+# BMW Car Sales Analysis
 
 <!-- Project overview section -->
 
 ## Raw dataset link
-https://www.kaggle.com/datasets/wiltheman/anime-data-set-for-ml
+https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 
 ## Tools
 - IBM Granite Model
