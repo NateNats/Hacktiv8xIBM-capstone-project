@@ -96,4 +96,4 @@ Model-Region Combinations:
    - The 5 Series model has a high sales volume across multiple regions (North America, Middle East, Africa, South America).
    - Certain models like the i8, M3, X6, and X1 have more limited sales in specific regions. For instance, i8 is more popular in Europe and Asia, while M3 is more common in South America and the Middle East.
 
-Berdasarkan hasil Granite AI, beberapa hal yang saya kerjakan dapat diketahui oleh AI dengan detail, bahkan bisa melebihi dari apa yang saya kerjakan. Granite ini membantu saya dalam menentukan bagian kolom atau _feature_ pada tabel apa yang digunakan untuk analisis, serta memberikan penjelasan setiap kolom yang digunakan.
+Berdasarkan hasil Granite AI, beberapa hal yang saya kerjakan dapat diketahui oleh AI dengan detail, bahkan bisa melebihi dari apa yang saya kerjakan. Granite ini membantu saya dalam menentukan bagian kolom atau _feature_ pada tabel apa yang digunakan untuk analisis, mencari hubungan korelasi antara model dan juga sales volume, korelasi fuel type dan sales volume, serta memberikan penjelasan setiap kolom yang digunakan.
