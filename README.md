@@ -72,6 +72,8 @@ Berdasarkan hasil yang didapatkan pada dataset tersebut, saya menemukan bahwa:
 1. Tipe model yang dikategorikan sebagai high sales, dapat dilihat bahwa model X1 menjadi model best sales pada region Asia, diikuti dengan model X3 pada region North America, 7 Series pada Middle East, X6 pada region South America, i8 pada region Europe, dan 3 Series pada region Africa.
 2. Region Asia menjadi wilayah dengan total sales volume tertinggi dari region lainnya, yaitu 42974277 unit dari 2010 sampai 2024.
 3. Model Series 7 (Premium) dan i8 (Sport) menjadi 2 model mobil BMW terlaris selama 10 tahun. Hal ini dikarenakan BMW merupakan brand premium, yang mayoritas pembelinya berasal dari kalangan menengah keatas, sehingga menjadi masuk akan mengapa dua model ini menjadi banyak dipilih. 
+4. Series 5 menjadi model yang memiliki high sales volume yang tersebar diberbagai region, dan i8 menjadi model yang populer di Europe dan Asia, sedangkan M3 menjadi model yang umum dijumpai di South America dan Middle East.
+5. Middle East lebih demen pake mesin dengan bahan bakar petrol, dengan transmisi matic.
 
 ## _AI Support Explanation_
 Pada Capstone ini, saya menggunakan AI dari IBM yaitu Granite versi 3.2-8b (instruct), yang diakses melalui LM Studio, sehingga model yang digunakan bersifat offline. Saya pengunggah file csv ke dalam model yang memberikan prompt sebagai berikut:
@@ -82,12 +84,16 @@ Model Distribution by Region:
    - i8 has a significant presence in Europe and North America, but fewer sales in other regions.
    - X3, M5, and X6 are prominent models in North America, Asia, and Europe.
    - 7 Series is more popular in South America and Asia, while having fewer sales in Africa and North America.
+
 Model-Region Preferences:
    - Asia tends to favor petrol engines and larger displacement sizes in BMW models.
    - North America has a mix of petrol and diesel engines with automatic transmissions being popular.
    - Europe appears to be more inclined towards electric, hybrid, and smaller engine sizes across various models.
    - Middle East prefers petrol engines, automatic transmissions, and larger displacements in their BMWs.
    - South America shows a preference for diesel engines, particularly in the 7 Series model.
+
 Model-Region Combinations:
    - The 5 Series model has a high sales volume across multiple regions (North America, Middle East, Africa, South America).
    - Certain models like the i8, M3, X6, and X1 have more limited sales in specific regions. For instance, i8 is more popular in Europe and Asia, while M3 is more common in South America and the Middle East.
+
+Berdasarkan hasil Granite AI, beberapa hal yang saya kerjakan dapat diketahui oleh AI dengan detail, bahkan bisa melebihi dari apa yang saya kerjakan. Granite ini membantu saya dalam menentukan bagian kolom atau _feature_ pada tabel apa yang digunakan untuk analisis, serta memberikan penjelasan setiap kolom yang digunakan.
