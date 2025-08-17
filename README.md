@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 
 ## _Insight & Findings_
 ### _Insights_
-1. Distribusi kelas High dan Low cukup berbeda jauh, yaitu .........
+1. Distribusi kelas High dan Low cukup berbeda jauh
 2. Distribusi kelas target berdasarkan transmisi
 - Manual (High: 7651, Low: 157503)
 - Otomatis (High: 7595, Low: 7595)
