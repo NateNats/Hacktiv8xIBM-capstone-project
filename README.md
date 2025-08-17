@@ -29,8 +29,29 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 - LM Studio (IBM/Granite-3.2-8b)
 
 ## _Insight & Findings_
-- Distribusi kelas target
-<img width="1014" height="701" alt="Image" src="https://github.com/user-attachments/assets/8e723934-9d53-4182-9801-af854b4cff08" />
-- 
+### _Insights_
+1. Distribusi kelas High dan Low cukup berbeda jauh, yaitu .........
+2. Distribusi kelas target berdasarkan transmisi
+- Manual (High: 7651, Low: 157503)
+- Otomatis (High: 7595, Low: 7595)
+ 
+3. Rata-rata penjualan berkategori low daripada high
+4. Transmisi didominasi jenis manual dengan total 25154 kendaraan terjual, sedangkan automatic dengan total 24846 terjual.
+5. Harga rata-rata model mobil BMW adalah:
+- 3 Series: $75288
+- 5 Series: $75366
+- 7 Series: $75017
+- M3      : $75570
+- M5      : $74475
+- X1      : $75566
+- X3      : $75262
+- X5      : $74842
+- X6      : $74708
+- i3      : $74800
+- i8      : $74435
+6. Warna mobil yang 
+
+### _Findings_
+
 ## _AI Support Explanation_
 
