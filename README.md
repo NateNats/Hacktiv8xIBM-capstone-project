@@ -29,6 +29,8 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 - LM Studio (IBM/Granite-3.2-8b)
 
 ## _Insight & Findings_
-
+- Distribusi kelas target
+<img width="1014" height="701" alt="Image" src="https://github.com/user-attachments/assets/8e723934-9d53-4182-9801-af854b4cff08" />
+- 
 ## _AI Support Explanation_
 
