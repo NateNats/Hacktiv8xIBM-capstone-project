@@ -21,6 +21,7 @@ Di era saat ini, industri otomotif terkhususnya mobil memiliki pasar yang sangat
 - Rangkuman dan rekomendasi.
 
 ## Raw dataset link
+Data penjualan ini dimulai dari tahun 2010 sampai 2024.
 https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 
 ## Tools
@@ -34,7 +35,6 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 2. Distribusi kelas target berdasarkan transmisi
 - Manual (High: 7651, Low: 157503)
 - Otomatis (High: 7595, Low: 7595)
- 
 3. Rata-rata penjualan berkategori low daripada high
 4. Transmisi didominasi jenis manual dengan total 25154 kendaraan terjual, sedangkan automatic dengan total 24846 terjual.
 5. Harga rata-rata model mobil BMW adalah:
@@ -63,11 +63,15 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 - South America : X6, 7 series, M3
 - europe        : i8, M5, 3 Series
 - Africa        : 3 series, 5 series, X5
-8. Sales Volume region Asia berada di angka 42974277, disusul dengan Europ di angka 42555138, North America di angka 42402629, Middle East di angka 42326620, Africa di angka 41565252 dan South America di angka 41551818.
-9. Jumlah model yang menggunakan transmisi manual berada di angka 25154, sedangkan automatic di angka 24846.
+8. Sales Volume region Asia berada di angka 42974277 unit, disusul dengan Europ di angka 42555138 unit, North America di angka 42402629 unit, Middle East di angka 42326620 unit, Africa di angka 41565252 unit dan South America di angka 41551818 unit.
+9. Jumlah model yang menggunakan transmisi manual berada di angka 25154 unit, sedangkan automatic di angka 24846 unit.
 10. Mobil listrik (Electric) memiliki harga rata-rata paling tinggi dibandingkan bahan bakar lain. Ini sesuai dengan tren saat ini, dimana mobil listrik lebih mahal karena menggunakan baterai. Hybrid justru memiliki harga rata-rata paling renha, sedikit di bawah bensin (petrol), sedangkan Diesel dan Petrol hampir sama, hanya selisih $90. 
 
 ### _Findings_
+Berdasarkan hasil yang didapatkan pada dataset tersebut, saya menemukan bahwa:
+1. Tipe model yang dikategorikan sebagai high sales, dapat dilihat bahwa model X1 menjadi model best sales pada region Asia, diikuti dengan model X3 pada region North America, 7 Series pada Middle East, X6 pada region South America, i8 pada region Europe, dan 3 Series pada region Africa.
+2. Region Asia menjadi wilayah dengan total sales volume tertinggi dari region lainnya, yaitu 42974277 unit dari 2010 sampai 2024.
+3. Model Series 7 (Premium) dan i8 (Sport) menjadi 2 model mobil BMW terlaris selama 10 tahun. Hal ini dikarenakan BMW merupakan brand premium, yang mayoritas pembelinya berasal dari kalangan menengah keatas, sehingga menjadi masuk akan mengapa dua model ini menjadi banyak dipilih. 
 
 ## _AI Support Explanation_
 
