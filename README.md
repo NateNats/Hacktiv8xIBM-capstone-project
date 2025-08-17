@@ -49,7 +49,23 @@ https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset/data
 - X6      : $74708
 - i3      : $74800
 - i8      : $74435
-6. Warna mobil yang 
+6. Warna mobil yang dikategorika high (kemungkinan akan dibeli):
+- Merah   : 5936
+- Biru    : 5709
+- Hitam   : 5777
+- Silver  : 5749
+- Putih   : 5729
+- Abu-abu : 5854
+7. Tiga model high sales pada setiap region:
+- Asia          : X1, 5 series, i8
+- North America : X3, i8, 7 series, X1
+- Middle East   : 7 series, X5,  3 series
+- South America : X6, 7 series, M3
+- europe        : i8, M5, 3 Series
+- Africa        : 3 series, 5 series, X5
+8. Sales Volume region Asia berada di angka 42974277, disusul dengan Europ di angka 42555138, North America di angka 42402629, Middle East di angka 42326620, Africa di angka 41565252 dan South America di angka 41551818.
+9. Jumlah model yang menggunakan transmisi manual berada di angka 25154, sedangkan automatic di angka 24846.
+10. Mobil listrik (Electric) memiliki harga rata-rata paling tinggi dibandingkan bahan bakar lain. Ini sesuai dengan tren saat ini, dimana mobil listrik lebih mahal karena menggunakan baterai. Hybrid justru memiliki harga rata-rata paling renha, sedikit di bawah bensin (petrol), sedangkan Diesel dan Petrol hampir sama, hanya selisih $90. 
 
 ### _Findings_
 
