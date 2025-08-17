@@ -74,4 +74,20 @@ Berdasarkan hasil yang didapatkan pada dataset tersebut, saya menemukan bahwa:
 3. Model Series 7 (Premium) dan i8 (Sport) menjadi 2 model mobil BMW terlaris selama 10 tahun. Hal ini dikarenakan BMW merupakan brand premium, yang mayoritas pembelinya berasal dari kalangan menengah keatas, sehingga menjadi masuk akan mengapa dua model ini menjadi banyak dipilih. 
 
 ## _AI Support Explanation_
-
+Pada Capstone ini, saya menggunakan AI dari IBM yaitu Granite versi 3.2-8b (instruct), yang diakses melalui LM Studio, sehingga model yang digunakan bersifat offline. Saya pengunggah file csv ke dalam model yang memberikan prompt sebagai berikut:
+_"kamu adalah seorang analis, saya mempunyai sebuah dataset mengenai penjualan bmw, saya ingin kamu mengenalisa hubungan antara model, region dan juga tingkat penjualan model"_
+hasilnya adalah sebagai berikut:
+Model Distribution by Region:
+   - 5 Series is the most popular model across all regions (Asia, North America, Middle East, South America, Europe, Africa).
+   - i8 has a significant presence in Europe and North America, but fewer sales in other regions.
+   - X3, M5, and X6 are prominent models in North America, Asia, and Europe.
+   - 7 Series is more popular in South America and Asia, while having fewer sales in Africa and North America.
+Model-Region Preferences:
+   - Asia tends to favor petrol engines and larger displacement sizes in BMW models.
+   - North America has a mix of petrol and diesel engines with automatic transmissions being popular.
+   - Europe appears to be more inclined towards electric, hybrid, and smaller engine sizes across various models.
+   - Middle East prefers petrol engines, automatic transmissions, and larger displacements in their BMWs.
+   - South America shows a preference for diesel engines, particularly in the 7 Series model.
+Model-Region Combinations:
+   - The 5 Series model has a high sales volume across multiple regions (North America, Middle East, Africa, South America).
+   - Certain models like the i8, M3, X6, and X1 have more limited sales in specific regions. For instance, i8 is more popular in Europe and Asia, while M3 is more common in South America and the Middle East.
